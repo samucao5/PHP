@@ -1,0 +1,15 @@
+<rss>
+    <usuario>
+        <item>
+            <nome>samuel</nome>
+            <idade>19</idade> 
+        </item>
+    </usuario>
+
+    <usuario2>
+        <item>
+            <nome>joao</nome>
+            <idade>15</idade>
+        </item>
+    </usuario2>
+</rss>
