@@ -1,0 +1,71 @@
+Views
+ - Responsáveis pela camada de apresentação (interface).
+ - Contêm páginas ou telas que o usuário vê.
+ - Normalmente usam HTML ou templates (Blade, EJS, Handlebars, etc.).
+ 
+Função: exibir dados, não conter lógica de negócio.
+
+Partials
+ - São trechos reutilizáveis de views.
+ - Evitam repetição de código.
+ - Usados dentro de outras views.
+Exemplos comuns:
+ - Header
+ - Footer
+ - Menu
+ - Sidebar
+ 
+Função: reutilização e organização.
+
+Layouts (ou Templates)
+ - Estrutura base da página.
+ - Define o esqueleto geral (HTML, head, body).
+ - As views “herdam” o layout.
+
+Função: padronizar o visual das páginas.
+
+Components (frontend moderno)
+ - Blocos independentes e reutilizáveis.
+ - Muito comum em React, Vue, Angular.
+
+Função: modularidade e reutilização.
+
+Pages
+ - Representam páginas completas.
+ - Normalmente usam vários components.
+
+Função: organizar rotas e telas.
+
+Controllers (backend)
+ - Recebem requisições do usuário.
+ - Processam dados e chamam as views.
+ 
+Função: ligar regras de negócio às views.
+
+Models
+ - Representam dados e regras do sistema.
+ - Geralmente ligados ao banco de dados.
+ 
+Função: estrutura e lógica dos dados.
+
+Services
+ - Contêm lógica mais complexa.
+ - Evitam controllers muito grandes.
+ 
+Função: organizar regras de negócio.
+
+Helpers / Utils
+ - Funções reutilizáveis.
+ - Pequenas tarefas comuns.
+ 
+Função: evitar repetição de código.
+
+Assets
+ - Arquivos estáticos.
+
+Função: estilos, scripts e imagens.
+
+
+
+
+
